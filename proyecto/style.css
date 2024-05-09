@@ -1,0 +1,130 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+body{background-color: rgb(60, 88, 64);}
+
+header.nav{
+    display: flex;
+   
+   
+   
+}
+.nav li{
+    list-style: none;
+    display: flex;
+    margin-left: 10px;
+    justify-content: center;
+   
+    
+    
+}
+
+main{
+
+.principal{ 
+    
+    display: flex;
+    align-items: center;
+}
+.verdadero{
+    display: flex;
+   justify-content: center;
+}
+
+
+.img-iglesia{
+    width: 100%;
+   
+    gap: 50px;   
+    
+}
+.carouselslide{
+
+}
+
+.data-producto{
+    width: 50%;
+   
+    
+}
+
+.container-iglesia{
+    display: flex;
+    
+    gap: 20px;
+    color: white;
+}
+
+
+
+h1{
+    font-weight: 500px;
+    font-size: 40px;
+    
+}
+.descripcion-producto{
+    display: flex;
+
+}
+.mapa{
+    display: flex;
+}
+.verdadero{
+    
+    color: white;
+    display: flex;
+}
+
+h2{
+    color: white;
+}
+p{
+    color: white
+}
+}
+
+
+footer{
+    text-align: center;
+}
+.social img{
+    width: 30px;
+    margin-right: 10px;
+    
+}
+
+@media(max-width:480px){
+    body{
+       
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(min-width:481px) and (max-width:780px){
+    body{
+       
+        display: flex;
+        flex-direction: column;
+        
+    }
+}
+@media(min-width:781px) and (max-width:1199px){
+    body{
+       
+        display: flex;
+        flex-direction: column;
+    }
+}
+      
+
+.principal {
+    display: flex;
+    flex-direction: column;
+}
+
+    
+
