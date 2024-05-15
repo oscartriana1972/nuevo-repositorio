@@ -9,7 +9,7 @@ formulario.addEventListener('submit', function(){
 
     //const genero = document.getElementById('genero').value 
 
-    console.log('los nombres son ' + nombre); 
+    console.log(' el nombre es ' + nombre); 
     console.log(' los apellidos son ' + apellidos);""
 
     //console.log('el genero es' + genero);
